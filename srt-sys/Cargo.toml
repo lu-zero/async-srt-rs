@@ -1,0 +1,19 @@
+[package]
+name = "srt-sys"
+version = "0.1.0"
+authors = ["Luca Barbato <lu_zero@gentoo.org>"]
+edition = "2018"
+license = "MPL-2.0"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+os_socketaddr = "0.1.1"
+
+[build-dependencies]
+bindgen = "0.56"
+system-deps = "2"
+
+[package.metadata.system-deps]
+srt = "1.4"

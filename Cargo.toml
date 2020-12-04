@@ -1,0 +1,15 @@
+[package]
+name = "async-srt-rs"
+version = "0.1.0"
+authors = ["Luca Barbato <lu_zero@gentoo.org>"]
+edition = "2018"
+license = "MPL-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+srt-sys = { path = "srt-sys" }
+
+
+[workspace]
+members = ["srt-sys"]
